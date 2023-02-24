@@ -1,0 +1,18 @@
+{
+  "package": "lol.nea.mixintesting.mixin",
+  "refmap": "mixins.mixintesting.refmap.json",
+  "minVersion": "0.7",
+  "compatibilityLevel": "JAVA_8",
+  "client": [
+    "MixinFontRenderer"
+  ],
+  "mixins": [
+    "MixinChatAllowedCharacters",
+    "MixinChatStyle",
+    "MixinChatStyleSerializer",
+    "PatcherFontRendererMixin"
+  ],
+  "injectors": {
+    "maxShiftBy": 5
+  }
+}
